@@ -2,32 +2,29 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # runs every 12 hours
+    - cron: "0 0 * * *"  # Runs at 00:00 UTC every day
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
+    
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - uses: Platane/snk@master
+      - uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: ChiR24
-          # generate both SVG and GIF
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: Push to GitHub
-        uses: EndBug/add-and-commit@v7.2.1
-        with:
-          branch: main
-          message: 'Generate Contribution Snake'
-
-      # Push to output branch
-      - uses: crazy-max/ghaction-github-pages@v2.6.0
+      - name: Push to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist

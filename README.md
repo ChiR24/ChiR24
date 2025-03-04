@@ -12,8 +12,12 @@
     <img
       alt="github contribution grid snake animation"
       src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/github-contribution-grid-snake.svg"
+      width="100%"
     />
   </picture>
+
+  <!-- Optional: Animated GIF version -->
+  <img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/ocean.gif" width="100%" alt="Snake animation with custom colors" />
 </div>
 
 <h1 align="center">👋 Hi, I'm ChiR24!</h1>
@@ -53,7 +57,7 @@ Always learning, always growing
 - 🌱 Learning and growing every day
 - 👯 Open to collaboration on innovative ideas
 
-### Goals for 2024
+### Goals for 2025
 - [ ] Contribute to open source
 - [ ] Build impactful projects
 - [ ] Learn new technologies
