@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-150 -150 300 300">
+  <defs>
+    <!-- Gradients for spaceship parts -->
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3498DB" />
+      <stop offset="100%" stop-color="#21618C" />
+    </linearGradient>
+    <linearGradient id="windowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#85C1E9" />
+      <stop offset="100%" stop-color="#D6EAF8" />
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E86C1" />
+      <stop offset="100%" stop-color="#1B4F72" />
+    </linearGradient>
+    <linearGradient id="thrusterGradient">
+      <stop offset="0%" stop-color="#F39C12" />
+      <stop offset="50%" stop-color="#E74C3C" />
+      <stop offset="100%" stop-color="#C0392B" />
+    </linearGradient>
+    <linearGradient id="engineGlowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5B041" stop-opacity="0" />
+      <stop offset="50%" stop-color="#E74C3C" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#C0392B" stop-opacity="0" />
+    </linearGradient>
+    
+    <!-- Stars background -->
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="white" stop-opacity="1" />
+      <stop offset="100%" stop-color="white" stop-opacity="0" />
+    </radialGradient>
+    
+    <!-- Spaceship model group -->
+    <g id="spaceshipModel">
+      <!-- Main body parts -->
+      <polygon id="body" points="0,-30 15,-10 15,30 -15,30 -15,-10" fill="url(#bodyGradient)" stroke="#152538" stroke-width="0.5" />
+      <ellipse id="window" cx="0" cy="-10" rx="5" ry="5" fill="url(#windowGradient)" stroke="#152538" stroke-width="0.5" />
+      <polygon id="leftWing" points="-15,10 -40,30 -15,30" fill="url(#wingGradient)" stroke="#152538" stroke-width="0.5" />
+      <polygon id="rightWing" points="15,10 40,30 15,30" fill="url(#wingGradient)" stroke="#152538" stroke-width="0.5" />
+      <rect id="thruster" x="-10" y="30" width="20" height="5" fill="url(#thrusterGradient)" stroke="#152538" stroke-width="0.5" />
+      
+      <!-- Engine glow effects (layered) -->
+      <polygon id="engineGlow1" points="-10,35 10,35 5,50 -5,50" fill="url(#engineGlowGradient)" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.9;0.7;0.8;0.7" dur="0.5s" repeatCount="indefinite" />
+        <animate attributeName="points" values="-10,35 10,35 5,50 -5,50;-10,35 10,35 5,55 -5,55;-10,35 10,35 5,45 -5,45;-10,35 10,35 5,52 -5,52;-10,35 10,35 5,50 -5,50" dur="0.8s" repeatCount="indefinite" />
+      </polygon>
+      <polygon id="engineGlow2" points="-7,35 7,35 3,45 -3,45" fill="url(#engineGlowGradient)" opacity="0.9">
+        <animate attributeName="opacity" values="0.9;1;0.9;0.95;0.9" dur="0.3s" repeatCount="indefinite" />
+        <animate attributeName="points" values="-7,35 7,35 3,45 -3,45;-7,35 7,35 3,48 -3,48;-7,35 7,35 3,42 -3,42;-7,35 7,35 3,46 -3,46;-7,35 7,35 3,45 -3,45" dur="0.5s" repeatCount="indefinite" />
+      </polygon>
+    </g>
+    
+    <!-- Star particle -->
+    <circle id="starParticle" cx="0" cy="0" r="1" fill="white" />
+  </defs>
+
+  <!-- Space background -->
+  <rect x="-150" y="-150" width="300" height="300" fill="#0A0E21" />
+  
+  <!-- Star field -->
+  <g id="starField"></g>
+  
+  <!-- Spaceship instance -->
+  <g id="spaceship" transform="translate(0,0) scale(1)"></g>
+
+  <script type="text/javascript"><![CDATA[
+    // Main animation control variables
+    let time = 0;
+    const starCount = 50;
+    const starSpeed = 1;
+    const spaceshipSpeed = 0.01;
+    
+    // Create star field
+    const starField = document.getElementById('starField');
+    const stars = [];
+    
+    for (let i = 0; i < starCount; i++) {
+      // Random position for each star
+      const x = Math.random() * 300 - 150;
+      const y = Math.random() * 300 - 150;
+      const z = Math.random() * 200 - 100; // z-depth for 3D effect
+      
+      // Random size for each star (bigger = closer)
+      const size = Math.random() * 1.5 + 0.5;
+      
+      // Create star
+      const star = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+      star.setAttribute("cx", x);
+      star.setAttribute("cy", y);
+      star.setAttribute("r", size);
+      star.setAttribute("fill", "white");
+      star.setAttribute("opacity", 0.5 + Math.random() * 0.5);
+      
+      // Occasional glowing star
+      if (Math.random() > 0.8) {
+        const glow = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+        glow.setAttribute("cx", x);
+        glow.setAttribute("cy", y);
+        glow.setAttribute("r", size + 1 + Math.random() * 2);
+        glow.setAttribute("fill", "url(#starGlow)");
+        glow.setAttribute("opacity", 0.3 + Math.random() * 0.3);
+        starField.appendChild(glow);
+        
+        // Add twinkling effect to some stars
+        const animateOpacity = document.createElementNS("http://www.w3.org/2000/svg", "animate");
+        animateOpacity.setAttribute("attributeName", "opacity");
+        animateOpacity.setAttribute("values", `${0.3 + Math.random() * 0.3};${0.1 + Math.random() * 0.2};${0.3 + Math.random() * 0.3}`);
+        animateOpacity.setAttribute("dur", `${1 + Math.random() * 3}s`);
+        animateOpacity.setAttribute("repeatCount", "indefinite");
+        glow.appendChild(animateOpacity);
+      }
+      
+      starField.appendChild(star);
+      
+      // Store star data for animation
+      stars.push({
+        element: star,
+        x: x,
+        y: y,
+        z: z,
+        size: size
+      });
+    }
+    
+    // Create spaceship instance
+    const spaceship = document.getElementById('spaceship');
+    const spaceshipModel = document.getElementById('spaceshipModel');
+    const spaceshipClone = spaceshipModel.cloneNode(true);
+    spaceship.appendChild(spaceshipClone);
+    
+    // Spaceship flight path parameters
+    let spaceshipX = 0;
+    let spaceshipY = 0;
+    let spaceshipZ = 0;
+    let spaceshipRotateX = 0;
+    let spaceshipRotateY = 0;
+    let spaceshipRotateZ = 0;
+    let spaceshipScale = 1;
+    
+    // Animation loop
+    function animate() {
+      time += 0.03;
+      
+      // Update stars (parallax scrolling for 3D effect)
+      stars.forEach(star => {
+        // Move stars to create flying through space effect
+        star.z -= starSpeed;
+        
+        // When a star goes beyond the viewing distance, reset it
+        if (star.z < -100) {
+          star.z = 100;
+          star.x = Math.random() * 300 - 150;
+          star.y = Math.random() * 300 - 150;
+        }
+        
+        // Calculate perspective
+        const scale = 100 / (star.z + 100);
+        const x = star.x * scale;
+        const y = star.y * scale;
+        const size = star.size * scale;
+        
+        // Update star position and size
+        star.element.setAttribute("cx", x);
+        star.element.setAttribute("cy", y);
+        star.element.setAttribute("r", size);
+        star.element.setAttribute("opacity", scale * 0.8);
+      });
+      
+      // Update spaceship flight path (figure-8 pattern with bobbing)
+      spaceshipX = Math.sin(time * spaceshipSpeed * 2) * 30;
+      spaceshipY = Math.sin(time * spaceshipSpeed) * Math.cos(time * spaceshipSpeed) * 20;
+      spaceshipZ = Math.cos(time * spaceshipSpeed * 0.5) * 5;
+      
+      // Spaceship rotation - slight banking in turns
+      spaceshipRotateX = Math.sin(time * spaceshipSpeed) * 10;
+      spaceshipRotateY = Math.cos(time * spaceshipSpeed * 2) * 5;
+      spaceshipRotateZ = Math.sin(time * spaceshipSpeed * 2) * 15;
+      
+      // Size oscillation for depth perception
+      spaceshipScale = 0.8 + (Math.sin(time * spaceshipSpeed * 0.5) + 1) * 0.2;
+      
+      // Apply transformations
+      spaceship.setAttribute("transform", 
+        `translate(${spaceshipX}, ${spaceshipY}) 
+         scale(${spaceshipScale}) 
+         rotate(${spaceshipRotateX}, 1, 0) 
+         rotate(${spaceshipRotateY}, 0, 1) 
+         rotate(${spaceshipRotateZ}, 0, 0, 1)`
+      );
+      
+      // Continue animation
+      requestAnimationFrame(animate);
+    }
+    
+    // Start animation
+    animate();
+  ]]></script>
+</svg>
