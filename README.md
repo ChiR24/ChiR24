@@ -17,7 +17,7 @@
   </picture>
 </div>
 
-<h1 align="center">👋 Hi, I'm ChiR24!</h1>
+<h1 align="center">👋 Hi, I'm Chirag!</h1>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=ChiR24&color=blueviolet&style=flat-square" alt="Profile Views" />
