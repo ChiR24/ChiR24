@@ -1,7 +1,7 @@
 <!-- Profile Banner with 3D Animation -->
 <div align="center">
   <a href="https://github.com/ChiR24">
-    <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="3D GitHub Animation">
+    <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="3D GitHub Animation">
   </a>
 </div>
 
@@ -19,6 +19,8 @@ An enthusiastic developer passionate about creating innovative solutions. I love
 ## 📊 GitHub Stats
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ChiR24&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <br><br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChiR24&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
 ## 🏆 Projects
@@ -27,9 +29,9 @@ An enthusiastic developer passionate about creating innovative solutions. I love
 ## 📫 How to Reach Me
 - GitHub: [@ChiR24](https://github.com/ChiR24)
 
-<!-- GitHub Activity Graph -->
+<!-- GitHub Activity Stats -->
 <div align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=ChiR24&theme=react-dark" alt="Activity Graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChiR24&theme=dark" alt="GitHub Streak Stats" />
 </div>
 
 <!--
