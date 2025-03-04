@@ -31,7 +31,7 @@ An enthusiastic developer passionate about creating innovative solutions. I love
 
 <!-- GitHub Activity Stats -->
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChiR24&theme=dark" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com?user=ChiR24&theme=radical&hide_border=true" alt="GitHub Streak Stats" />
 </div>
 
 <!--
