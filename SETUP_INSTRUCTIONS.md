@@ -3,19 +3,31 @@
 To make this README appear on your GitHub profile, follow these steps:
 
 1. Create a new repository on GitHub with the **exact same name as your GitHub username** (in this case, `ChiR24`)
-2. Push this README.md file and the assets folder to that repository
+2. Push this README.md file to that repository
 3. Make sure the repository is public
 4. GitHub will automatically recognize and display the README.md content on your profile page
 
-## Steps for Adding the Spaceship Animation:
+## About the 3D Animation
 
-1. Create or download a spaceship.gif file
-2. Add it to the assets folder
-3. Push the changes to GitHub
-4. The README references the animation using this path:
-   ```
-   https://raw.githubusercontent.com/ChiR24/ChiR24/main/assets/spaceship.gif
-   ```
+The README now uses a direct link to a 3D spaceship animation from GIPHY:
+```
+<img src="https://media.giphy.com/media/l0MYIc7FWDXmJk1s4/giphy.gif" alt="3D Spaceship Animation" width="500px">
+```
+
+You can replace this with any other animation by changing the URL. Several alternative animations are suggested in the comments at the bottom of the README file.
+
+## Benefits of Using Online GIFs:
+- No need to create and host your own GIF files
+- No need to maintain an assets folder
+- Faster setup process
+- Reliable and optimized for web display
+
+## Alternative: Using Self-Hosted GIFs
+
+If you prefer to host your own animation:
+1. Create an 'assets' folder in your repository
+2. Add your GIF file to that folder
+3. Update the image path to: `https://raw.githubusercontent.com/ChiR24/ChiR24/main/assets/your-file-name.gif`
 
 ## Customizing Your Profile:
 
