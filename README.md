@@ -1,8 +1,19 @@
 <!-- Profile Banner with 3D Animation -->
 <div align="center">
-  <a href="https://github.com/ChiR24">
-    <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="3D GitHub Animation">
-  </a>
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      alt="github contribution grid snake animation"
+      src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/github-contribution-grid-snake.svg"
+    />
+  </picture>
 </div>
 
 <h1 align="center">👋 Hi, I'm ChiR24!</h1>
