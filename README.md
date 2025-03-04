@@ -5,16 +5,26 @@
   </a>
 </div>
 
-# 👋 Hi, I'm ChiR24!
+<h1 align="center">👋 Hi, I'm ChiR24!</h1>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=ChiR24&color=blueviolet&style=flat-square" alt="Profile Views" />
+</div>
 
 ## 🚀 About Me
-An enthusiastic developer passionate about creating innovative solutions. I love exploring new technologies and contributing to exciting projects.
+A passionate developer crafting innovative solutions
+Exploring the frontiers of technology
+Always learning, always growing
 
-## 🔧 Technologies & Tools
+## 💻 Tech Stack
+<div align="center">
+  
 ![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=git&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Editor-Cursor-informational?style=flat&logo=cursor&logoColor=white&color=2bbc8a)
+
+</div>
 
 ## 📊 GitHub Stats
 <div align="center">
@@ -23,15 +33,38 @@ An enthusiastic developer passionate about creating innovative solutions. I love
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChiR24&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
-## 🏆 Projects
-- Coming soon...
+## 🏆 Projects & Achievements
+<details>
+<summary>Click to expand!</summary>
 
-## 📫 How to Reach Me
-- GitHub: [@ChiR24](https://github.com/ChiR24)
+### Current Projects
+- 🔭 Working on exciting new projects (Coming soon...)
+- 🌱 Learning and growing every day
+- 👯 Open to collaboration on innovative ideas
 
-<!-- GitHub Activity Stats -->
+### Goals for 2024
+- [ ] Contribute to open source
+- [ ] Build impactful projects
+- [ ] Learn new technologies
+</details>
+
+## 🌐 Connect With Me
+<div align="center">
+  
+[![GitHub](https://img.shields.io/badge/GitHub-ChiR24-blue?style=flat&logo=github)](https://github.com/ChiR24)
+<!-- Add your other social links here -->
+  
+</div>
+
+## ⚡ Activity Graph
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=ChiR24&theme=radical&hide_border=true" alt="GitHub Streak Stats" />
+</div>
+
+<div align="center">
+  
+### "Code is poetry written in logic" 💭
+
 </div>
 
 <!--
