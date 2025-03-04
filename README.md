@@ -16,8 +16,8 @@
     />
   </picture>
 
-  <!-- Optional: Animated GIF version -->
-  <img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/ocean.gif" width="100%" alt="Snake animation with custom colors" />
+  <!-- Snake Animation (GIF version) -->
+  <img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/ocean.gif" width="100%" alt="Snake animation" />
 </div>
 
 <h1 align="center">👋 Hi, I'm ChiR24!</h1>

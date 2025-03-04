@@ -13,20 +13,22 @@ jobs:
     
     steps:
       - uses: actions/checkout@v3
-
-      - uses: Platane/snk@v3
+      
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: ChiR24
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/ocean.gif?color_snake=#4c71f2&color_dots=#1a1b27,#383b71,#5257b5,#7b63a3,#ac76b0
 
-      - name: Push to GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          commit_message: Update snake animation
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
