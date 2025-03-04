@@ -9,18 +9,22 @@ To make this README appear on your GitHub profile, follow these steps:
 
 ## About the 3D Animation
 
-The README now uses a direct link to a 3D spaceship animation from GIPHY:
-```
-<img src="https://media.giphy.com/media/l0MYIc7FWDXmJk1s4/giphy.gif" alt="3D Spaceship Animation" width="500px">
+The README now uses a reliable GitHub contribution snake animation:
+```html
+<div align="center">
+  <a href="https://github.com/ChiR24">
+    <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="3D GitHub Animation">
+  </a>
+</div>
 ```
 
-You can replace this with any other animation by changing the URL. Several alternative animations are suggested in the comments at the bottom of the README file.
+This animation is directly hosted on GitHub, ensuring it will always display properly.
 
-## Benefits of Using Online GIFs:
-- No need to create and host your own GIF files
-- No need to maintain an assets folder
-- Faster setup process
-- Reliable and optimized for web display
+## Benefits of Using GitHub-Hosted SVG Animations:
+- 100% reliable display on GitHub profiles
+- No dependency on external hosting services
+- Consistent appearance across all devices
+- Better integration with GitHub's design
 
 ## Alternative: Using Self-Hosted GIFs
 

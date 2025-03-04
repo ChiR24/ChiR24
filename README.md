@@ -1,6 +1,8 @@
 <!-- Profile Banner with 3D Animation -->
 <div align="center">
-  <img src="https://media.giphy.com/media/l0MYIc7FWDXmJk1s4/giphy.gif" alt="3D Spaceship Animation" width="500px">
+  <a href="https://github.com/ChiR24">
+    <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="3D GitHub Animation">
+  </a>
 </div>
 
 # 👋 Hi, I'm ChiR24!
@@ -31,12 +33,15 @@ An enthusiastic developer passionate about creating innovative solutions. I love
 </div>
 
 <!--
-This animation uses a GIF from GIPHY. Here are some alternative space-themed animations you can use:
+This animation is the GitHub contribution snake animation by Platane.
+It's a reliable SVG animation that works well on GitHub profiles.
 
-1. Space Station: https://media.giphy.com/media/xUOxfk8zazlkQKAF20/giphy.gif
-2. Rocket Launch: https://media.giphy.com/media/RHIKETUlUINYvV7CAO/giphy.gif
-3. Planet Rotation: https://media.giphy.com/media/RkDZq0dPAlqbhtXJHR/giphy.gif
-4. Space Explorer: https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif
+Here are some alternative animations you can use:
 
-To use one of these, simply replace the URL in the img tag at the top of this README.
+1. GitHub Stats Card: https://github-readme-stats.vercel.app/api?username=ChiR24&show_icons=true&theme=radical
+2. GitHub Skyline 3D: https://skyline.github.com/ (generate and download as GIF)
+3. Contribution Calendar: https://github-readme-streak-stats.herokuapp.com/?user=ChiR24&theme=dark
+4. 3D Repository Visualization: https://github.com/yyx990803/build-your-own-vue
+
+You can also create custom SVG animations for your profile.
 --> 
