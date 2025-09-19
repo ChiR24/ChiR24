@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Every 6 hours for freshness
+    - cron: "0 */12 * * *"  # Every 12 hours
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -13,32 +13,21 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate-snake-animations
+    name: generate-snake-animation
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate Multiple Snake Themes
+      - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg?palette=github
             dist/github-snake-dark.svg?palette=github-dark
-            dist/cyberpunk-snake.svg?color_snake=#f0f&color_dots=#111111,#2b1055,#490d7c,#7a2e9d,#ff00ff
-            dist/ocean-snake.svg?color_snake=#FFD700&color_dots=#001a66,#003d99,#0066cc,#3399ff,#66b3ff
-            dist/neon-snake.svg?color_snake=#00ff00&color_dots=#0a0a0a,#0f2b0f,#144d14,#197019,#00ff00
-            dist/sunset-snake.svg?color_snake=#FF6B6B&color_dots=#4A235A,#6C3483,#8E44AD,#BB8FCE,#FF6B6B
-            dist/matrix-snake.svg?color_snake=#00FF41&color_dots=#001100,#003300,#005500,#008800,#00FF41
-            dist/fire-snake.svg?color_snake=#FF4500&color_dots=#330000,#660000,#990000,#CC0000,#FF4500
-            dist/arctic-snake.svg?color_snake=#00CED1&color_dots=#F0F8FF,#E0FFFF,#AFEEEE,#40E0D0,#00CED1
-            dist/galaxy-snake.svg?color_snake=#9400D3&color_dots=#000033,#1a1a66,#330099,#6600cc,#9400D3
-            dist/github-snake.gif?color_snake=#58a6ff&color_dots=#0d1117,#161b22,#30363d,#484f58,#58a6ff
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
       
-      - name: Push animations to GitHub
+      - name: Push snake animation to GitHub
         uses: EndBug/add-and-commit@v9
         with:
           default_author: github_actions
-          message: '🐍 Generate snake animations'
+          message: '🐍 Generate snake animation'
           add: 'dist/*'
