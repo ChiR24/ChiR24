@@ -1,94 +1,87 @@
-<!-- Profile Banner with 3D Animation -->
+<!-- Animated Wave Banner -->
 <div align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/github-contribution-grid-snake-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/github-contribution-grid-snake.svg"
-    />
-    <img
-      alt="github contribution grid snake animation"
-      src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/github-contribution-grid-snake.svg"
-      width="100%"
-    />
-  </picture>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=200&section=header&text=Chirag%20Panwar&fontSize=45&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Open%20Dev%20|%20Always%20Learning&descAlignY=55&descSize=20" />
 </div>
 
-<h1 align="center">👋 Hi, I'm Chirag!</h1>
-
+<!-- Simple Typing Header -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ChiR24&color=blueviolet&style=flat-square" alt="Profile Views" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=false&width=600&lines=👋+Hi%2C+I'm+Chirag!;Welcome+to+my+GitHub+Profile" alt="Typing SVG" />
 </div>
+
+<!-- Profile Stats -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=ChiR24&label=Profile%20Views&color=blueviolet&style=flat-square" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/ChiR24?style=flat-square&color=blue&label=Followers" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/stars/ChiR24?style=flat-square&color=yellow&label=Total%20Stars" alt="GitHub Stars" />
+</div>
+
+<br>
 
 ## 🚀 About Me
-A passionate developer crafting innovative solutions
-Exploring the frontiers of technology
-Always learning, always growing
+
+<div align="center">
+
+```
+💡 Passionate developer crafting innovative solutions
+🌱 Exploring the frontiers of technology
+📚 Always learning, always growing
+🎯 Open to collaboration on innovative ideas
+```
+
+</div>
 
 ## 💻 Tech Stack
+
 <div align="center">
   
-![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=git&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Editor-Cursor-informational?style=flat&logo=cursor&logoColor=white&color=2bbc8a)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 </div>
 
 ## 📊 GitHub Stats
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ChiR24&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChiR24&layout=compact&theme=radical" alt="Top Languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ChiR24&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChiR24&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
-## 🏆 Projects & Achievements
-<details>
-<summary>Click to expand!</summary>
-
-### Current Projects
-- 🔭 Working on exciting new projects (Coming soon...)
-- 🌱 Learning and growing every day
-- 👯 Open to collaboration on innovative ideas
-
-### Goals for 2025
-- [ ] Contribute to open source
-- [ ] Build impactful projects
-- [ ] Learn new technologies
-</details>
-
-## 🌐 Connect With Me
 <div align="center">
-  
-[![GitHub](https://img.shields.io/badge/GitHub-ChiR24-blue?style=flat&logo=github)](https://github.com/ChiR24)
-<!-- Add your other social links here -->
-  
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChiR24&theme=radical&hide_border=true" alt="GitHub Streak Stats" />
+</div>
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ChiR24&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
 </div>
 
 ## ⚡ Activity Graph
+
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=ChiR24&theme=radical&hide_border=true" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChiR24&theme=react-dark&hide_border=true" alt="GitHub Activity Graph" />
 </div>
+
+## 🌐 Connect With Me
+
+<div align="center">
+  <a href="https://github.com/ChiR24">
+    <img src="https://img.shields.io/badge/GitHub-ChiR24-181717?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+  <a href="mailto:cprsm24@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</div>
+
+<br>
+
+<!-- Footer Wave -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=100&section=footer" />
 
 <div align="center">
   
 ### "Code is poetry written in logic" 💭
 
 </div>
-
-<!--
-This animation is the GitHub contribution snake animation by Platane.
-It's a reliable SVG animation that works well on GitHub profiles.
-
-Here are some alternative animations you can use:
-
-1. GitHub Stats Card: https://github-readme-stats.vercel.app/api?username=ChiR24&show_icons=true&theme=radical
-2. GitHub Skyline 3D: https://skyline.github.com/ (generate and download as GIF)
-3. Contribution Calendar: https://github-readme-streak-stats.herokuapp.com/?user=ChiR24&theme=dark
-4. 3D Repository Visualization: https://github.com/yyx990803/build-your-own-vue
-
-You can also create custom SVG animations for your profile.
---> 

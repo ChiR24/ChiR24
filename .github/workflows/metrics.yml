@@ -1,0 +1,46 @@
+name: Generate 3D Contributions
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs daily at midnight
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Generate 3D Contribution Calendar
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ChiR24
+          SETTING_JSON: |
+            {
+              "type": "normal",
+              "backgroundColor": "#0d1117",
+              "foregroundColor": "#ffffff",
+              "strongColor": "#ff0066",
+              "weakColor": "#0e4429",
+              "radarColor": "#ff0066",
+              "growingAnimation": true,
+              "contribColors": [
+                "#0e4429",
+                "#006d32",
+                "#26a641",
+                "#39d353",
+                "#39ff53"
+              ]
+            }
+      
+      - name: Push to output branch
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'profile-3d-contrib/'
+          message: '📊 Update 3D Contributions [skip ci]'
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
