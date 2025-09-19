@@ -46,31 +46,35 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ChiR24&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChiR24&layout=compact&theme=radical" alt="Top Languages" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ChiR24&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&text_color=58a6ff&icon_color=58a6ff&title_color=58a6ff" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChiR24&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&text_color=58a6ff&title_color=58a6ff" alt="Top Languages" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChiR24&theme=radical&hide_border=true" alt="GitHub Streak Stats" />
+  <img width="98%" src="https://github-readme-streak-stats.herokuapp.com/?user=ChiR24&theme=tokyonight&hide_border=true&background=00000000&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakNum=58a6ff&currStreakLabel=58a6ff&sideNums=58a6ff&sideLabels=58a6ff&dates=adb5bd" alt="GitHub Streak Stats" />
 </div>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" height="2" />
+</p>
 
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ChiR24&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ChiR24&theme=algolia&no-frame=true&no-bg=true&margin-w=4&margin-h=4&column=7" alt="GitHub Trophies" />
 </div>
-
-## ⚡ Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChiR24&theme=react-dark&hide_border=true" alt="GitHub Activity Graph" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ChiR24&theme=darkhub&no-frame=true&no-bg=false&margin-w=4&margin-h=4&column=3&title=MultiLanguage,Commits,Followers" alt="Selected Trophies" />
 </div>
 
-## 📈 GitHub Metrics
+## ⚡ Activity Graph
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ChiR24/ChiR24/main/github-metrics.svg" alt="Metrics" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChiR24&custom_title=Chirag%20Panwar's%20Contribution%20Graph&theme=github-dark&bg_color=0d1117&color=58a6ff&line=58a6ff&point=1f6feb&area=true&area_color=58a6ff&hide_border=true" alt="GitHub Activity Graph" width="100%" />
 </div>
+
+
 
 ## 🌐 Connect With Me
 
