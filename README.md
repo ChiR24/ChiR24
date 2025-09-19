@@ -6,18 +6,63 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=false&width=600&lines=%F0%9F%91%8B+Hi%2C+I%27m+Chirag!;Welcome+to+my+GitHub+Profile" alt="Typing SVG" />
 </p>
 
-<!-- Snake Animation -->
+<!-- 🐍 Enhanced Snake Animations -->
+<h2 align="center">🎨 Contribution Snake - Pick Your Theme!</h2>
+
+<!-- Primary Display: Auto-adapts to GitHub theme -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/github-snake.svg" />
-    <img alt="Snake Animation" src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/github-snake.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/dist/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/dist/github-snake.svg" />
+    <img alt="Snake Animation" src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/dist/github-snake.svg" width="100%" />
   </picture>
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/ocean.gif" alt="Ocean Snake" width="100%" />
-</div>
+<!-- Theme Gallery -->
+<details align="center">
+<summary><b>✨ Click to Explore More Themes ✨</b></summary>
+<br>
+
+<!-- Cyberpunk Theme -->
+<h4>💜 Cyberpunk Neon</h4>
+<img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/dist/cyberpunk-snake.svg" alt="Cyberpunk Snake" width="100%" />
+<br><br>
+
+<!-- Matrix Theme -->
+<h4>💚 Matrix Digital Rain</h4>
+<img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/dist/matrix-snake.svg" alt="Matrix Snake" width="100%" />
+<br><br>
+
+<!-- Fire Theme -->
+<h4>🔥 Inferno Blaze</h4>
+<img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/dist/fire-snake.svg" alt="Fire Snake" width="100%" />
+<br><br>
+
+<!-- Galaxy Theme -->
+<h4>🌌 Cosmic Galaxy</h4>
+<img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/dist/galaxy-snake.svg" alt="Galaxy Snake" width="100%" />
+<br><br>
+
+<!-- Ocean Theme -->
+<h4>🌊 Deep Ocean</h4>
+<img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/dist/ocean-snake.svg" alt="Ocean Snake" width="100%" />
+<br><br>
+
+<!-- Arctic Theme -->
+<h4>❄️ Arctic Frost</h4>
+<img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/dist/arctic-snake.svg" alt="Arctic Snake" width="100%" />
+<br><br>
+
+<!-- Sunset Theme -->
+<h4>🌅 Sunset Gradient</h4>
+<img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/dist/sunset-snake.svg" alt="Sunset Snake" width="100%" />
+<br><br>
+
+<!-- Animated GIF Version -->
+<h4>🎬 Animated GIF</h4>
+<img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/dist/ocean.gif" alt="Animated Snake" width="100%" />
+
+</details>
 
 <!-- Profile Stats -->
 <div align="center">
