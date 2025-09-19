@@ -1,50 +1,70 @@
-name: Generate 3D Contributions
+name: Metrics
 
 on:
-  schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight
+  schedule: 
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: 
+      - main
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  github-metrics:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    
     steps:
-      - uses: actions/checkout@v3
-      
-      - name: Generate 3D Contribution Calendar
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ChiR24
-          SETTING_JSON: |
-            {
-              "type": "normal",
-              "backgroundColor": "#0d1117",
-              "foregroundColor": "#ffffff",
-              "strongColor": "#ff0066",
-              "weakColor": "#0e4429",
-              "radarColor": "#ff0066",
-              "growingAnimation": true,
-              "contribColors": [
-                "#0e4429",
-                "#006d32",
-                "#26a641",
-                "#39d353",
-                "#39ff53"
-              ]
-            }
-      
-      - name: Push to output branch
-        uses: EndBug/add-and-commit@v9
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
         with:
-          add: 'profile-3d-contrib/'
-          message: '📊 Update 3D Contributions [skip ci]'
-          committer_name: GitHub Actions
-          committer_email: actions@github.com
+          # Your GitHub token
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # Options
+          user: ChiR24
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Asia/Manila
+          
+          # Isometric calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          
+          # Languages activity
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          
+          # Achievements
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+          
+          # Notable contributions
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_types: commit
+          
+          # Habits
+          plugin_habits: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 8
+          
+          # Code activity
+          plugin_code: yes
+          plugin_code_days: 3
+          plugin_code_lines: 12
+          plugin_code_load: 400
+          plugin_code_visibility: public

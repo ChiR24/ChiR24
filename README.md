@@ -1,11 +1,18 @@
-<!-- Animated Wave Banner -->
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=200&section=header&text=Chirag%20Panwar&fontSize=45&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Open%20Dev%20|%20Always%20Learning&descAlignY=55&descSize=20" />
 </div>
 
-<!-- Simple Typing Header -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=false&width=600&lines=%F0%9F%91%8B+Hi%2C+I%27m+Chirag!;Welcome+to+my+GitHub+Profile" alt="Typing SVG" />
+</p>
+
+<!-- 3D Contribution Calendar - Replacing Snake -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=false&width=600&lines=👋+Hi%2C+I'm+Chirag!;Welcome+to+my+GitHub+Profile" alt="Typing SVG" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/main/profile-3d-contrib/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/main/profile-3d-contrib/profile-green-animate.svg">
+    <img alt="3D Contribution Calendar" src="https://raw.githubusercontent.com/ChiR24/ChiR24/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%">
+  </picture>
 </div>
 
 <!-- Profile Stats -->
@@ -19,27 +26,22 @@
 
 ## 🚀 About Me
 
-<div align="center">
+- 💡 Passionate developer crafting innovative solutions
+- 🌱 Exploring the frontiers of technology  
+- 📚 Always learning, always growing
+- 🎯 Open to collaboration on innovative ideas
 
-```
-💡 Passionate developer crafting innovative solutions
-🌱 Exploring the frontiers of technology
-📚 Always learning, always growing
-🎯 Open to collaboration on innovative ideas
-```
+## 🌈 Tech Stack & Tools
 
-</div>
-
-## 💻 Tech Stack
-
-<div align="center">
-  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-</div>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
+  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
+  <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
+  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
+  <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100">
+  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
+  <img src="https://user-images.githubusercontent.com/74038190/212281756-450d3ffa-9335-4b98-a965-db8a18fee927.gif" width="100">
+</p>
 
 ## 📊 GitHub Stats
 
@@ -58,10 +60,16 @@
   <img src="https://github-profile-trophy.vercel.app/?username=ChiR24&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
 </div>
 
-## ⚡ Activity Graph
+## ⚡ Activity
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChiR24&theme=react-dark&hide_border=true" alt="GitHub Activity Graph" />
+</div>
+
+## 📈 GitHub Metrics
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ChiR24/ChiR24/main/github-metrics.svg" alt="Metrics" width="100%" />
 </div>
 
 ## 🌐 Connect With Me
@@ -70,15 +78,12 @@
   <a href="https://github.com/ChiR24">
     <img src="https://img.shields.io/badge/GitHub-ChiR24-181717?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
-  <a href="mailto:cprsm24@gmail.com">
+  <a href="mailto:chiragpanwar@example.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
 
 <br>
-
-<!-- Footer Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=100&section=footer" />
 
 <div align="center">
   
