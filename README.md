@@ -6,13 +6,17 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=false&width=600&lines=%F0%9F%91%8B+Hi%2C+I%27m+Chirag!;Welcome+to+my+GitHub+Profile" alt="Typing SVG" />
 </p>
 
-<!-- 3D Contribution Calendar - Replacing Snake -->
+<!-- Snake Animation -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/main/profile-3d-contrib/profile-night-rainbow.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/main/profile-3d-contrib/profile-green-animate.svg">
-    <img alt="3D Contribution Calendar" src="https://raw.githubusercontent.com/ChiR24/ChiR24/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/github-snake.svg" />
+    <img alt="Snake Animation" src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/github-snake.svg" width="100%" />
   </picture>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/ocean.gif" alt="Ocean Snake" width="100%" />
 </div>
 
 <!-- Profile Stats -->
