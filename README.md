@@ -8,7 +8,7 @@
 
 <!-- Snake Animation -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/dist/github-snake-dark.svg" alt="Snake Animation" width="100%" />
+  <img src="https://raw.githubusercontent.com/ChiR24/ChiR24/main/dist/github-snake-dark.svg" alt="Snake Animation" width="100%" />
 </div>
 
 <!-- Profile Stats -->
