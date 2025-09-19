@@ -2,40 +2,26 @@ name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    - cron: "0 18 * * *"  # Run daily at 6 PM UTC
+    - cron: "0 18 * * *"
   workflow_dispatch:
   push:
     branches: [ main ]
 
 permissions:
   contents: write
-  actions: read
-  checks: write
-  deployments: write
-  issues: write
-  packages: write
-  pull-requests: write
-  repository-projects: write
-  security-events: write
-  statuses: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          
-      - name: Generate 3D Profile
-        uses: yoshi389111/github-profile-3d-contrib@0.9.1
+      - uses: actions/checkout@v4
+      
+      - uses: yoshi389111/github-profile-3d-contrib@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          MAX_REPOS: 100
-          
+      
       - name: Commit & Push
         run: |
           git config user.name github-actions
