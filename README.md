@@ -78,7 +78,7 @@
   <a href="https://github.com/ChiR24">
     <img src="https://img.shields.io/badge/GitHub-ChiR24-181717?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
-  <a href="mailto:chiragpanwar@example.com">
+  <a href="mailto:cprsm24@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
