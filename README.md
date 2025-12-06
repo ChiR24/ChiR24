@@ -13,7 +13,7 @@
 
 <!-- Profile Stats -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ChiR24&label=Profile%20Views&color=blueviolet&style=flat-square" alt="Profile Views" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=ChiR24.ChiR24" alt="unique visitors" />
   <img src="https://img.shields.io/github/followers/ChiR24?style=flat-square&color=blue&label=Followers" alt="GitHub Followers" />
   <img src="https://img.shields.io/github/stars/ChiR24?style=flat-square&color=yellow&label=Total%20Stars" alt="GitHub Stars" />
 </div>
