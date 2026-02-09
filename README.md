@@ -42,8 +42,12 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ChiR24&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&text_color=58a6ff&icon_color=58a6ff&title_color=58a6ff" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChiR24&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&text_color=58a6ff&title_color=58a6ff" alt="Top Languages" />
+  <img width="49%" alt="GitHub Stats"
+  src="https://github-readme-stats.vercel.app/api?username=ChiR24&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&text_color=58a6ff&icon_color=58a6ff&title_color=58a6ff&cache_seconds=21600&v=2" />
+
+  <img width="49%" alt="Top Languages"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChiR24&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&text_color=58a6ff&title_color=58a6ff&cache_seconds=21600&v=2" />
+
 </div>
 
 <div align="center">
@@ -57,7 +61,9 @@
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ChiR24&theme=algolia&no-frame=true&no-bg=true&margin-w=4&margin-h=4&column=7" alt="GitHub Trophies" />
+  <img alt="GitHub Trophies"
+  src="https://github-profile-trophy.vercel.app/?username=ChiR24&theme=algolia&no-frame=true&no-bg=true&margin-w=4&margin-h=4&column=7&v=2" />
+
 </div>
 
 <div align="center">
