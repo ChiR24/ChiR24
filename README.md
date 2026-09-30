@@ -1,98 +1,47 @@
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=200&section=header&text=Chirag%20Panwar&fontSize=45&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Open%20Dev%20|%20Always%20Learning&descAlignY=55&descSize=20" />
-</div>
+<!-- The cards below are SVGs rebuilt every day from live GitHub + npm data:
+     scripts/build.py renders them, .github/workflows/profile.yml publishes them to the `output` branch. -->
+
+<p><a href="https://github.com/ChiR24/Unreal_mcp"><picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/hero-light.svg">
+  <img width="100%" alt="Chirag Panwar. I build the tools that let AI agents build worlds. Creator of Unreal MCP, the open-source bridge between AI assistants and Unreal Engine." src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/hero-dark.svg">
+</picture></a></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=false&width=600&lines=%F0%9F%91%8B+Hi%2C+I%27m+Chirag!;Welcome+to+my+GitHub+Profile" alt="Typing SVG" />
+  <a href="https://github.com/ChiR24/Unreal_mcp"><b>Unreal&nbsp;MCP</b></a> &nbsp;·&nbsp; <a href="https://www.npmjs.com/package/unreal-engine-mcp-server">npm</a> &nbsp;·&nbsp; <a href="https://github.com/ChiR24/Unreal_mcp/discussions">Discussions</a> &nbsp;·&nbsp; <a href="https://github.com/users/ChiR24/projects/3">Roadmap</a> &nbsp;·&nbsp; <a href="mailto:cprsm24@gmail.com">cprsm24@gmail.com</a>
 </p>
 
-<!-- Snake Animation -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ChiR24/ChiR24/main/dist/github-snake-dark.svg" alt="Snake Animation" width="100%" />
-</div>
+### Hey, I'm Chirag.
 
-<!-- Profile Stats -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ChiR24&label=Profile%20Views&color=blueviolet&style=flat-square" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/ChiR24?style=flat-square&color=blue&label=Followers" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/ChiR24?style=flat-square&color=yellow&label=Total%20Stars" alt="GitHub Stars" />
-</div>
+I make AI agents useful inside the tools people create with. My main project, **[Unreal MCP](https://github.com/ChiR24/Unreal_mcp)**, lets AI assistants drive Unreal Engine 5: a TypeScript MCP server and a native C++ editor plugin that expose actors, Blueprints, materials, Niagara, PCG, Sequencer and more as tools behind a single gateway. It's listed on the official [MCP Registry](https://registry.modelcontextprotocol.io/) and in [Docker's MCP Catalog](https://github.com/docker/mcp-registry), and it has grown into a genuine community project.
 
+Lately I'm also shipping plugins for [OpenCode](https://opencode.ai) and bringing the same idea to Unity.
+
+<p><a href="https://github.com/ChiR24/Unreal_mcp"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/featured-light.svg"><img width="100%" alt="Featured project: Unreal MCP. Stars over time, forks, contributors, npm installs and the latest release, updated daily." src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/featured-dark.svg"></picture></a></p>
+
+<p><a href="https://github.com/ChiR24/opencode-tps-meter"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/tps-light.svg"><img width="50%" alt="OpenCode TPS Meter: live tokens-per-second meter for AI coding sessions." src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/tps-dark.svg"></picture></a><a href="https://github.com/ChiR24/Unity_MCP"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/unity-light.svg"><img width="50%" alt="Unity MCP: assets, scenes, scripts and play mode as MCP tools." src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/unity-dark.svg"></picture></a></p>
+
+<p><picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/toolbox-light.svg">
+  <img width="100%" alt="Toolbox: Unreal Engine, Unity, C++, C#, TypeScript, Rust, Python, Flutter, Node.js, Bun, Docker, MCP, Claude." src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/toolbox-dark.svg">
+</picture></p>
+
+<p><picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/activity-light.svg">
+  <img width="100%" alt="Activity over the last 12 months: contributions, commits, pull requests, code reviews, streaks, the contribution graph and languages by code size." src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/activity-dark.svg">
+</picture></p>
+
+<details>
+<summary><b>More things I've built</b></summary>
 <br>
 
-## 🚀 About Me
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [Link Fetch](https://github.com/ChiR24/Link-Fetch) | Chrome extension that collects, de-duplicates and validates every link on a page | JavaScript |
+| [Smart Solver](https://github.com/ChiR24/solver_ext) | Chrome extension that works through coding problems on LeetCode, GFG, HackerRank and CodeChef with Gemini | JavaScript |
+| [Travel Planner](https://github.com/ChiR24/travel_planner) | Trip planner with Gemini itineraries, weather-aware suggestions and maps | Flutter · Riverpod |
+| [DayTask](https://github.com/ChiR24/TaskHub) | Personal task tracker with auth and offline mode, on web and mobile | Flutter · Supabase |
+| [SM2](https://github.com/ChiR24/SM2) | Flashcards scheduled with the SuperMemo 2 spaced-repetition algorithm | JavaScript |
 
-- 💡 Passionate developer crafting innovative solutions
-- 🌱 Exploring the frontiers of technology  
-- 📚 Always learning, always growing
-- 🎯 Open to collaboration on innovative ideas
+</details>
 
-## 🌈 Tech Stack & Tools
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
-  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
-  <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
-  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
-  <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100">
-  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
-  <img src="https://user-images.githubusercontent.com/74038190/212281756-450d3ffa-9335-4b98-a965-db8a18fee927.gif" width="100">
-</p>
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img width="49%" alt="GitHub Stats"
-  src="https://github-readme-stats.vercel.app/api?username=ChiR24&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&text_color=58a6ff&icon_color=58a6ff&title_color=58a6ff&cache_seconds=21600&v=2" />
-
-  <img width="49%" alt="Top Languages"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChiR24&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&text_color=58a6ff&title_color=58a6ff&cache_seconds=21600&v=2" />
-
-</div>
-
-<div align="center">
-  <img width="98%" src="https://github-readme-streak-stats.herokuapp.com/?user=ChiR24&theme=tokyonight&hide_border=true&background=00000000&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakNum=58a6ff&currStreakLabel=58a6ff&sideNums=58a6ff&sideLabels=58a6ff&dates=adb5bd" alt="GitHub Streak Stats" />
-</div>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" height="2" />
-</p>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img alt="GitHub Trophies"
-  src="https://github-profile-trophy.vercel.app/?username=ChiR24&theme=algolia&no-frame=true&no-bg=true&margin-w=4&margin-h=4&column=7&v=2" />
-
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ChiR24&theme=darkhub&no-frame=true&no-bg=false&margin-w=4&margin-h=4&column=3&title=MultiLanguage,Commits,Followers" alt="Selected Trophies" />
-</div>
-
-## ⚡ Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChiR24&custom_title=Chirag%20Panwar's%20Contribution%20Graph&theme=github-dark&bg_color=0d1117&color=58a6ff&line=58a6ff&point=1f6feb&area=true&area_color=58a6ff&hide_border=true" alt="GitHub Activity Graph" width="100%" />
-</div>
-
-
-
-## 🌐 Connect With Me
-
-<div align="center">
-  <a href="https://github.com/ChiR24">
-    <img src="https://img.shields.io/badge/GitHub-ChiR24-181717?style=for-the-badge&logo=github" alt="GitHub" />
-  </a>
-  <a href="mailto:cprsm24@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</div>
-
-<br>
-
-<div align="center">
-  
-### "Code is poetry written in logic" 💭
-
-</div>
+<p><a href="mailto:cprsm24@gmail.com"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChiR24/ChiR24/output/footer-light.svg"><img width="100%" alt="Let's build something. Email cprsm24@gmail.com" src="https://raw.githubusercontent.com/ChiR24/ChiR24/output/footer-dark.svg"></picture></a></p>

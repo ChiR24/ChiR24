@@ -1,0 +1,59 @@
+name: Profile cards
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, 03:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", "assets/**", ".github/workflows/profile.yml"]
+
+permissions:
+  contents: write # publish dist/ to the output branch
+  actions: write # re-enable this workflow: GitHub pauses cron after 60 days without repo activity
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - run: pip install fonttools==4.66.1 brotli==1.2.0 && mkdir -p dist
+
+      - name: Contribution snake (in the card palette)
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        continue-on-error: true # the activity card falls back to a drawn heatmap
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#ff7ad6&color_dots=#151b23,#0f3a5f,#155d98,#2585d6,#5aa9ff
+            dist/snake-light.svg?color_snake=#c02d86&color_dots=#e6ebf0,#b3d4ff,#6fb0ff,#2f7fe8,#0a5bc4
+
+      - name: Cards
+        run: python scripts/build.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Publish to the output branch
+        working-directory: dist
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          git init -q -b output
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -qm "Rebuild profile cards"
+          git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
+
+      - name: Keep the schedule alive
+        run: gh api -X PUT "repos/${GITHUB_REPOSITORY}/actions/workflows/profile.yml/enable"
+        env:
+          GH_TOKEN: ${{ github.token }}
